@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+      <!-- HEADER -->
+      <header>
+        <a class="logo"><i class="bi bi-fire"></i>WABSIDE</a>
+
+        <ul class="navlist">
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#grupos">Agrupaciones</a></li>
+            <li><a href="#pp">Politica y Privacidad</a></li>
+            <li><a href="https://youtube.com/@wabsidedancecrew5620?si=ipFHpV2mnuP49rEK">Youtube principal</a></li>
+    </ul>
+  
+    <div class="nav-icons">
+        <a href="#" onclick="toggleBusqueda()" class="btn"><i class="bi bi-search"></i></a>
+        <input type="text" id="busqueda" placeholder="Introduce tu busqueda" onkeypress="if(event.keyCode==13) buscar()">      
+        <button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="bi bi-moon-fill"></i></button>
+        <div class="bx bx-menu" id="menu-icon"></div> 
+    </div>
+    </header>
+
+<!-- HOME -->
+
+<section class="home" id="home">
+
+   <div class="home-text">
+       <h1><span><i class="bi bi-fire"></i></span></i>Join our side <br> we are <br> <span>WABSIDE!</span></h1>
+       <a href="https://forms.gle/MJ4gZyVQTDtPLg5d7" class="btn">Audiciones<i class="bi bi-caret-right-fill"></i></i> </a>
+       <a href="https://www.canva.com/design/DAGVio4pKJA/5fBQQtbH4LXcWdeeCivbVw/edit" class="btn2">Presentacion<i class="bi bi-caret-right-fill"></i></a>
+   </div>
+
+   <div class="home-img">
+       <img src="img/grupal1.jpg" alt="">
+   </div>
+
+</section>
+
+<!-- container -->
+
+<section class="container">
+
+   <div class="container-box">
+       <img src="img/WABSIDE.PNG">
+       <h3 class="colorcito">Contemporaneo</h3>
+       <p>La danza contemporánea puede definirse como un estilo resultante de fusionar otros que encuentran su base en el ballet clásico pero está exenta de el rigor de esta disciplina. 
+           A diferencia de la danza clásica, el baile contemporáneo adquiere una expresión corporal más libre en cuanto a los movimientos.</p>
+       <a href="https://www.esaem.com/noticias/que-es-y-en-que-consiste-la-danza-contemporanea/">Leer Mas</a>
+   </div>
+
+   <div class="container-box">
+       <img src="img/WABSIDE.PNG">
+       <h3 class="colorcito">Dance Hall</h3>
+       <p>El dancehall es un género musical nacido en Jamaica durante la década de los setenta, aunque no se hizo verdaderamente muy popular hasta los casi los años noventa. 
+           El origen del dancehall tiene en la historia del género muchos factores culturales y sociales de la Jamaica de la época, ya que fueron años de grandes cambios políticos. Se considera una evolución de reggae.</p>
+       <a href="https://los40.com/los40/2019/01/30/musica/1548869836_458651.html">Leer Mas</a>
+   </div>
+
+   <div class="container-box">
+       <img src="img/WABSIDE.PNG">
+       <h3 class="colorcito">HIP-HOP</h3>
+       <p>el Hip hop es la cultura que engloba distintas corrientes callejeras y que va mucho más allá de cantar. 
+           Se trata de un movimiento cultural que nació en la década de los 70 en las calles del distrito del Bronx, en Nueva York, como respuesta a la represiva situación en la que vivían los ciudadanos afroamericanos, recluidos en una especie de gueto moderno. </p>
+       <a href="https://www.muyinteresante.com/curiosidades/26701.html">Leer Mas</a>
+   </div>
+
+</section>
+
+     <!-- Carrusel --------------------------------------------------------------------------------------------------------------- -->
+
+     <br><br><br>
+     
+     
+     <div class="slider">
+
+
+        <div class="list">
+
+            <div class="item">
+                <img src="img/contempo1.jpg" alt="">
+            
+                <div class="contenido">
+                    <div class="title">DANZA</div>
+                    <div class="type">Arte</div>
+                    <div class="description">
+                        La danza es un arte que se basa en la expresión corporal, generalmente acompañada de música. Es una de las formas de expresión más ancestrales del ser humano que puede tener fines artísticos, de entretenimiento o religiosos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/contempo2.jpg" alt="">
+
+                <div class="contenido">
+                    <div class="title">DANZA</div>
+                    <div class="type">Arte</div>
+                    <div class="description">
+                        La danza es un arte que se basa en la expresión corporal, generalmente acompañada de música. Es una de las formas de expresión más ancestrales del ser humano que puede tener fines artísticos, de entretenimiento o religiosos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/contempo3.jpg" alt="">
+
+                <div class="contenido">
+                    <div class="title">DANZA</div>
+                    <div class="type">Arte</div>
+                    <div class="description">
+                        La danza es un arte que se basa en la expresión corporal, generalmente acompañada de música. Es una de las formas de expresión más ancestrales del ser humano que puede tener fines artísticos, de entretenimiento o religiosos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/contempo4.jpg" alt="">
+
+                <div class="contenido">
+                    <div class="title">DANZA</div>
+                    <div class="type">Arte</div>
+                    <div class="description">
+                        La danza es un arte que se basa en la expresión corporal, generalmente acompañada de música. Es una de las formas de expresión más ancestrales del ser humano que puede tener fines artísticos, de entretenimiento o religiosos.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+<!-- foto en espera -->
+
+        <div class="fotos">
+
+            <div class="item">
+                <img src="img/contempo1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/contempo2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/contempo3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/contempo4.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="nextPrevArrows">
+            <button class="prev"> < </button>
+            <button class="next"> > </button>
+        </div>
+
+
+    </div>
+
+
+     <!-- container --------------------Del index---------------------- -->
+
+     <section class="contenedor">
+
+        <div class="contenedor-box">
+            <div class="embed-responsive-embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYTCz9I2fo4?si=fXX-4LGklm4Wdw7Q" allowfullscreen></iframe>
+              </div>             
+              <h3 class="colorcito">Origen de la danza</h3>
+            <p>Se encontraron registros pictóricos de la danza en todas las épocas y en los distintos continentes, si bien a través del curso del tiempo se fue modificando su forma, su sentido y significado.
+                En la prehistoria se bailaba al compás de los sonidos de la naturaleza, que más tarde fueron acompañados por las palmas, el choque de los pies o de bastones, que luego se vieron evolucionados en instrumentos musicales. Por último, se incorporó la voz. 
+                Estas danzas primitivas eran pasionales y espontáneas, buscaban expresar sentimientos y estados de ánimo.</p>
+            <a href="https://concepto.de/danza/#ixzz8qYMqUs83">Leer Mas</a>
+        </div>
+
+        <div class="contenedor-box">
+            <div class="embed-responsive-embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://youtu.be/XuaECf75ZLI?si=kybxWydTwbZjHvFx" allowfullscreen></iframe>
+              </div> 
+            <h3 class="colorcito">Dance Hall</h3>
+            <p>Las danzas populares o folclóricas. Son las que se basan en la transmisión de la cultura tradicional de un lugar. Expresan los valores de una cultura y las características de su ambiente: el clima, la fauna y la flora. Algunos ejemplos son: el flamenco, el tango, la danza árabe o los bailes de salón.
+                Las danzas clásicas. Son una herencia de tiempos antiguos, principalmente del periodo clásico de la antigüedad medieval, pero que sufrieron cambios a través del tiempo hasta llegar a nuestros días. Estas danzas se identifican porque quienes ejecutan los movimientos lo hacen teniendo en cuenta pasos armoniosos y coordinados. Por ejemplo: la danza ballet.</p>
+            <a href="https://concepto.de/danza/#ixzz8qYMqUs83">Leer Mas</a>
+        </div>
+
+     </section>
+
+     <!-- Agrupaciones -->
+
+     <section class="grupos" id="grupos">
+
+        <div class="grupos-text">
+
+            <div class="grupos-img">
+                <img src="img/fuego.webp">
+            </div>
+            <h2>WABSIDE</h2>
+            <p>
+                WABSIDE, el grupo de baile dominicano que ha revolucionado la escena urbana, inició su trayectoria en 2017. Con una formación rigurosa y una pasión inigualable, este grupo de 15 talentosos bailarines ha logrado conquistar al público con su estilo único y enérgico.
+
+                Su debut en 2020 fue un verdadero punto de inflexión, al obtener el primer lugar en una competencia de alto nivel.<br><br> Desde entonces, WABSIDE se ha convertido en sinónimo de innovación y excelencia, inspirando a una nueva generación de bailarines.
+
+                Su estilo, que fusiona elementos del hip hop, el urbano y la danza contemporánea, junto con su puesta en escena impecable, los ha posicionado como uno de los grupos más destacados de la escena artística dominicana.
+            </p>
+            <a href="https://youtube.com/@wabsidedancecrew5620?si=u6TfQjFHaf5fgMKR" class="btn">Canal <i class="bi bi-caret-right-fill"></i></a>
+        </div>
+
+        <div class="grupos-text">
+            <div class="grupos-img">
+                <img src="img/diamante.png">
+            </div>
+            <h2>ONYX DC </h2>
+            <p>
+                Onyx, con una estética visual impactante y coreografías sincronizadas al ritmo de la música coreana, Onyx ha logrado cautivar al público latinoamericano y posicionarse como uno de los grupos de K-pop más prometedores de la región.
+                33 talentos coreanos en suelo dominicano. <br><br>Onyx ha llevado el espíritu del K-pop a nuevas alturas, fusionando los ritmos y movimientos característicos de este género con la energía y el sabor latino.
+            </p>
+            <a href="https://youtube.com/@onyxdancecrewrd?si=BwmTrW10dSraZ9Dg" class="btn">Canal <i class="bi bi-caret-right-fill"></i></a>
+        </div>
+     </section>
+
+     <hr>
+     <!-- map y contacto -->
+
+     <div class="contact-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="section-title">
+						<h1><i class="bi bi-telephone"></i><span>Nuestro</span> contacto</h1>
+                        <li><a class="btn" id="myBtn"><i class="bi bi-envelope"></i> Email</a></li>
+                        <li><a class="btn" id="myBtn"><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="contact-form">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Tu nombre" type="text">
+							</div>
+							<div class="form-group">
+								<input class="form-control" placeholder="Tu correo" type="email">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" cols="30" placeholder="Dejanos un mensaje" rows="10"></textarea>
+							</div><button class="btn" >Guardar</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="map-area">
+						<iframe allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24176.994922677593!2d-73.90202769957703!3d40.759289326895654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25fa191b4692b%3A0xe573e64fb17e324a!2sJackson%20Heights%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1643211772666!5m2!1sen!2sbd"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+<!-- MODAL ----------------------------------------------------------- -->
+
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p><div class="alert alert-danger d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                <div>
+                Estaras enviando un mensaje directamente desde tu correo electronico!
+                </div>
+            </div></p>
+            <a class="btn" href="mailto:yinatoribio343@gmail.com"><i class="bi bi-envelope"></i> Enviar de todas formas</a>
+            </div>
+        </div>
+           
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p><div class="alert alert-danger d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                <div>
+                Estaras enviando un mensaje directamente desde tu numero de telefono!
+                </div>
+            </div></p>
+            <a class="btn" href="https://wa.me/8293713369?text=Hola"></a><i class="bi bi-envelope"></i> Enviar de todas formas</a>
+            </div>
+        </div>
+
+     <!-- Politica y privacidad -->
+
+     <section>
+
+        <div class="middle-text" id="pp">
+            <h4><i class="bi bi-lock"></i>Politica y privacidad</i></h4>
+            <h2>Conoce nuestra politica y privacidad</h2>
+        </div>
+    
+         <div class="contenido-pp">
+            <h3>¿Cómo utilizamos su información?</h3>
+    <p>Utilizamos la información que recopilamos para:</p>
+    <ul>
+        <li>Personalizar su experiencia en nuestro sitio web</li>
+        <li>Procesar sus pedidos</li>
+        <li>Enviarle correos electrónicos promocionales</li>
+    </ul>
+            <div class="in-text">
+                <div class="s-btn">
+                    <a href="pp.html">leer mas</a>
+                </div>
+            </div>
+            
+         </div>
+
+    </section>
+
+    <!-- pie -->
+
+    <footer>
+        <div class="pie">
+            <p> <div> <div><em><span style="color: gray"> 2024 Mi Sitio Web. Todos los derechos reservados.</span></em></div>
+    
+            </div></p>
+            <nav>
+                <ul>
+                    <div class="d-inline-flex p-2"><img src="img/fotico.jpeg" alt="YINA"><i class="bi bi-bookmark-heart-fill"></i> <p>Yinaury Toribio Alcantara, yt20-0815. <i class="bi bi-bookmark-heart-fill"></i></p><a href="https://www.instagram.com/yina.toribiio/profilecard/?igsh=cDExOGtuZjFmYmg=">Instagram personal</a> </div>
+                    <li><i class="bi bi-twitter"></i> <a href="https://www.instagram.com/wabside_dr/profilecard/?igsh=cDExOGtuZjFmYmg=">Twitter</a></li>
+                    <li><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/wabside_dr/profilecard/?igsh=cDExOGtuZjFmYmg=">Instagram</a></li>
+                </ul>
+                <div>
+                <ul>
+                <em><span style="color: #808080;">Toda la informacion es relacionada al baile. Los recursos de la creacion de la misma, provienen de Boostrap</span></em>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+</body>
+</html>
